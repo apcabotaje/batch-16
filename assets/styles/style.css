@@ -46,3 +46,19 @@
     isolation: isolate;
   }
 
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .desktop-menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+  }
+  .desktop-menu .options {
+    display: flex;
+  }
+  .desktop-menu .options p {
+    margin-left: 48px;
+  }
